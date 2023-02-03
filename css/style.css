@@ -1,0 +1,640 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+  :root {
+    /*================ font-family ================ */
+    --ff-Montserrat: 'Montserrat', sans-serif;
+
+    /*================ color ================ */
+    --color-black:#0A121E;
+    --color-grey:#3C3C3C;
+    --color-red:#FF342B;
+    --color-blue:#004382;
+    --color-primary:#FFFFFF;
+    --color-secondary: #C4C4C4;
+    --color-third: #3483CB;
+    --color-fourth: #FAFAFA;
+    /*================ background ================*/
+    --bg-red:#FF342B;
+    --bg-black: #0A121E;
+  }
+
+  /*================ default style ================ */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body{
+    height: 100%;
+  }
+
+  body{
+    font-family: var(--ff-Montserrat);
+    color: var(--color-black);
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 600;
+  }
+
+  .wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .container {
+     max-width: 1440px;
+     margin: 60px 150px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .btn{
+    border: none;
+    outline: none;
+  }
+  /*================ default style ================ */
+
+  /* =========== header ===========  */
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 150px;
+    gap: 30px;
+    height: 90px;
+    background: var(--bg-black);
+  }
+
+  .big-container {
+     max-width: 1440px;
+     margin: 0 auto;
+  }
+
+  .nav {
+     display: flex;
+     justify-content: space-between
+  }
+
+   .menu-list {
+     display: flex;
+     gap: 0 45px;
+     padding: 55px 15%;
+   }
+
+   .menu-link {
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 20px;
+     letter-spacing: 0.05em;
+     text-transform: uppercase;
+     color: var(--color-primary);
+   }
+
+   .logo {
+     position: absolute;
+     left: 10%;
+     right: 20%;
+     top: 2rem;
+     bottom: 31.41%;
+     height:90px;
+     width: 120px;
+   }
+
+   button {
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 12px 18px;
+     gap: 10px;
+     width: 88px;
+     height: 44px;
+     background: var(--bg-red);
+     border-radius: 4px;
+     margin: 45px 268px;
+   }
+
+   button span {
+     font-family: var(--ff-Montserrat);
+     font-weight: 700;
+     width: 52px;
+     height: 20px;
+     font-size: 16px;
+     line-height: 20px;
+     color: var(--color-primary);
+     letter-spacing: 0.05em;
+     text-transform: uppercase;
+   }
+
+  /* =========== header ===========  */
+
+  /* =========== main ===========  */
+  .main {
+    flex-grow: 1;
+  }
+
+  /*================ space ================ */
+  .promo-shuttle{
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+    width: 1440px;
+    height: 915px;
+    margin: 90px 250px;
+  }
+
+  .title {
+    font-family: var(--ff-Montserrat);
+    width: 745px;
+    height: 68px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-black);
+    margin: 60px 344px;
+    white-space: nowrap;
+  }
+
+  .subtitle {
+    width: 751px;
+    height: 90px;
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-grey);
+    margin: 30px 344px;
+  }
+
+  .planetarium {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 200px;
+    width: 556px;
+    padding: 0;
+    gap: 30px;
+    margin: 180px 0;
+  }
+
+  .space{
+    position: absolute;
+    padding-bottom: 60px;
+  }
+
+  .telescope{
+    position: absolute;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 30px;
+    width: 556px;
+    height: 200px;
+    margin: 0 250px;
+  }
+
+  .tools{
+    position: absolute;
+    padding-bottom: 60px;
+  }
+
+  .universe{
+    position: absolute;
+    margin: -20px 550px;
+  }
+
+  .moon{
+    padding: 50px 0;
+  }
+
+  #moon-description{
+    margin: -5px -100px;
+  }
+
+  .medal{
+    padding: 50px 0;
+  }
+
+  #medal-description{
+    margin: -5px -100px;
+  }
+
+  .description{
+    font-family: var(--ff-Montserrat);
+    height: 52px;
+    width: 250px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #0A121E;
+    margin: 30px -100px;
+  }
+  /*================ space ================ */
+
+  /* ================ sky ================ */
+
+  .sky-slider {
+    width: 1440px;
+    height: 892px;
+    margin: 90px 20px;
+    background: var(--color-black);
+  }
+
+  .sky__info {
+    background: url(../images/sky.jpg) no-repeat;
+    height: 1561px;
+    left: 20rem;
+    top: 0;
+  }
+
+  .sky__info-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: var(--color-primary);
+    padding: 90px 573px;
+    filter:
+        drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+        drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+        drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .sky__photo {
+    position: relative;
+    width: 750px;
+    height: 420px;
+    filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.5));
+    margin: -85rem 177px;
+  }
+
+  .main__photo {
+    position: absolute;
+    width: 750px;
+    height: 420px;
+    left: 184px;
+    top: 0;
+    background: var(--color-secondary);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+  }
+
+  .photo {
+    background: url(../images/landscape.jpg) no-repeat;
+    position: absolute;
+    width: 906px;
+    height: 1360px;
+  }
+  /* ================ sky ================ */
+
+  /* ================ miniature =========== */
+  .miniature__slider {
+    margin:1410px 15rem;
+  }
+
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 30px;
+    width: 1117px;
+    height: 165px;
+  }
+
+  .miniature-img {
+    width: 165px;
+    height: 165px;
+  }
+
+  .miniature__button {
+    position: absolute;
+    top: 2000px;
+    cursor:pointer;
+    left: 10%;
+  }
+
+
+  .miniature__item-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .swiper-button-left {
+    transform:translateX(-41px);
+  }
+
+  .swiper-button-right {
+    transform:translateX(1075px);
+  }
+  /* ================ miniature ================ */
+
+  /* ================ sky-contact ================ */
+  .contact__title {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: 0.02em;
+    color: var(--color-black);
+  }
+
+  .contact__address {
+    margin-top:30px;
+  }
+
+  .contact__address-title {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--color-black);
+    letter-spacing: 0.02em;
+  }
+
+  .contact__address-text {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: var(--color-grey);
+  }
+
+  .contact__info-item {
+    margin-top:18px;
+  }
+
+  .contact__cite {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--color-black);
+    letter-spacing: 0.02em;
+  }
+
+  .contact__info-item span {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: var(--color-blue);
+  }
+
+  .social__list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 15px;
+    margin-top:18px;
+  }
+
+  .sky__feedback {
+    margin-top: 30px;
+  }
+
+  .question {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: var(--color-black);
+  }
+
+  .sky__visitor {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: var(--color-grey);
+    margin-top: 7px;
+  }
+
+  a{
+    color: var(--color-blue);
+  }
+
+  .sky__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 10px;
+    margin: 3rem 0;
+    width: 555px;
+    height: 314px;
+  }
+
+  input[type="text"], [type="tel"], [type="email"] {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 555px;
+    height: 46px;
+    border: 1px solid var(--color-grey);
+    border-radius: 4px;
+  }
+
+  input[type="text"], [type="tel"], [type="email"]::placeholder {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: var(--color-grey);
+  }
+
+  textarea[name="message"] {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 555px;
+    height: 106px;
+    border: 1px solid var(--color-grey);
+    border-radius: 4px;
+  }
+
+  textarea[name="message"]::placeholder {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: var(--color-grey);
+  }
+
+  .agree{
+    display: flex;
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: var(--color-grey);
+    gap: 5px;
+  }
+
+  .agree span{
+    color: var(--color-blue);
+  }
+
+
+  input[type="checkbox"] {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--color-grey);
+    border-radius: 4px;
+  }
+
+  .submit-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 186px;
+    height: 44px;
+    background: var(--color-red);
+    border-radius: 4px;
+    margin: 30px 36px 12px -5px;
+  }
+
+  .send-btn {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    margin-right: 50px;
+    margin-top: 5px;
+  }
+
+  .map{
+    position: absolute;
+    top: 144rem;
+    left: 70rem;
+    width: 555px;
+    height: 743px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    background: var(--color-secondary);
+  }
+
+  .sky__map{
+    position: absolute;
+    background: url(../images/map.png) no-repeat;
+    width: 1920px;
+    height: 1122px;
+    top: 0;
+    left: -4px;
+  }
+  /*================ main ================*/
+
+
+  /* =========== footer ===========  */
+  .footer {
+    margin: 180px 0;
+  }
+
+  .sky__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 150px;
+    gap: 30px;
+    background: var(--bg-black);
+  }
+
+  .footer__logo-img{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 31.41%;
+    bottom: 31.41%;
+    padding: 0 10px;
+  }
+
+  .sky__footer-link {
+    font-family: var(--ff-Montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+  }
+
+  .sky__copyright{
+    margin: 0 -10px;
+  }
+
+  .sky__foot{
+    margin: 0 -260px;
+  }
+
+  .sky__foot-date{
+    margin: 0 45px;
+  }
+
+  .sky__foot-cite{
+    margin: 0 350px;
+
+  }
+
+  .footer__sky-link{
+    font-family: var(--ff-Montserrat);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: var(--color-primary);
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+  }
+  /* =========== footer ===========  */

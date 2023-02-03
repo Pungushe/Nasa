@@ -1,0 +1,212 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+      <title>Nasa</title>
+  </head>
+   <body>
+     <!-- <div class="wrapper"> -->
+      <header class="header">
+        <div class="big-container">
+          <nav class="nav">
+            <a class="logo" href="#">
+              <img class="logo-img" src="images/logo.svg" alt="">
+            </a>
+
+            <ul class="menu-list">
+              <li class="menu-item">
+                  <a class="menu-link" href="#"></a>
+              </li>
+
+              <li class="menu-item">
+                  <a class="menu-link" href="#">Преимущества</a>
+              </li>
+
+              <li class="menu-item">
+                  <a class="menu-link" href="#">Фотографии</a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">Контакты</a>
+              </li>
+            </ul>
+            <button class="btn header-btn" type="submit" name="entry"><span>Вход</span></button>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+       <section class="promo-shuttle">
+         <div class="big-container">
+           <h1 class="title">Космическое агентство</h1>
+             <h2 class="subtitle">Национальное управление по аэронавтике и исследованию космического пространства —
+               ведомство, относящееся к федеральному правительству США и подчиняющееся непосредственно президенту США
+             </h2>
+           </div>
+
+           <div class="planetarium">
+             <div class="space">
+               <img src="images/shuttle.png" alt="Шаттл">
+               <h3 class="description">Спейс шаттлы — пилотируемые корабли</h3>
+               <img class="moon" src="images/moon.png" alt="Луна">
+               <h3 class="description" id="moon-description">Целимся на Луну<br> и Марс</h3>
+             </div>
+
+             <div class="telescope">
+               <div class="tools">
+                 <img src="images/telescope.png" alt="Телескопическое оборудование">
+                 <h3 class="description">Лучшее телескопическое оборудование</h3>
+                 <img class="medal" src="images/medal.png" alt="Медаль">
+                 <h3 class="description" id="medal-description">Золотая медаль по научным исследованиям</h3>
+               </div>
+             </div>
+
+             <div class="universe">
+               <img src="images/world.png" alt="Вселенная">
+             </div>
+           </div>
+         </section>
+
+         <section class="sky-slider">
+           <div class="sky__photos">
+            <div class="sky__info">
+              <h2 class="sky__info-title">Фотографии</h2>
+            </div>
+          </div>
+
+          <div class="sky__photo">
+            <div class="main__photo">
+              <div class="photo"></div>
+            </div>
+          </div>
+
+          <div class="miniature__slider swiper">
+             <div class="swiper-wrapper">
+              <div class="swiper-slide miniature__item">
+                <img class="miniature-img" src="images/miniature-1.png" alt="">
+                <img class="miniature-img" src="images/miniature-2.png" alt="">
+                <img class="miniature-img" src="images/miniature-3.png" alt="">
+                <img class="miniature-img" src="images/miniature-4.png" alt="">
+                <img class="miniature-img" src="images/miniature-5.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="miniature__button swiper-button-left">
+            <img class="miniature__item-img" src="images/arrow-left.svg" alt="">
+          </div>
+
+          <div class="miniature__button swiper-button-right">
+            <img class="miniature__item-img" src="images/arrow-right.svg" alt="">
+          </div>
+        </section>
+
+        <section class="sky__contact">
+          <div class="container">
+            <h3 class="contact__title">Контакты</h3>
+             <div class="contact__address">
+               <address class="contact__address-title">
+                Адрес Space Center Houston:
+              </address>
+              <address class="contact__address-text">
+                1601 NASA Parkway, Houston, Texas 77058
+              </address>
+             </div>
+
+             <div class="contact__info-item">
+                <h3 class="contact__cite">Сайт</h3>
+                <span><a href="https://NASA.gov">NASA.gov</a></span>
+             </div>
+
+             <ul class="social__list">
+               <li class="social-list__item">
+                 <a class="social-list__link" href="#">
+                   <img class="social-list__icon" src="images/telegram.svg" alt="">
+                 </a>
+               </li>
+               <li class="social-list__item">
+                <a class="social-list__link" href="#">
+                  <img class="social-list__icon" src="images/youtube.svg" alt="">
+                </a>
+              </li>
+            </ul>
+
+            <div class="sky__feedback">
+              <h4 class="question">Остались вопросы?</h4>
+                <p class="sky__visitor">Visit our Visitor Information page to get helpful tips and advice about <br>
+                  visiting the center, email <a href="#">schinfo@spacecenter.org</a>, or submit a <br>
+                  question by filling out the form below.</p>
+              </div>
+              <form action="#" method="post">
+                 <div class="sky__form">
+                   <div class="form-row">
+                     <label>
+                      <input type="text" class="form-control" name="name" placeholder="ФИО*" required>
+                    </label>
+                   </div>
+
+                   <div class="form-row">
+                     <label>
+                      <input type="email" class="form-control" name="email" placeholder="Ваш email*">
+                    </label>
+                  </div>
+
+                  <div class="form-row">
+                     <label>
+                      <input type="tel" class="form-control phone" name= "phone" placeholder="Ваш телефон*">
+                    </label>
+                  </div>
+
+                  <div class="form-row">
+                   <label>
+                      <textarea class="form-control" name="message" rows="10" placeholder="Ваше сообщение*"></textarea>
+                   </label>
+                 </div>
+
+                 <div class="checkbox">
+                   <p class="agree"><label>
+                        <input type="checkbox">
+                    </label>Согласие на обработку <span>персональных данных</span></p>
+                    <button class="btn submit-btn" type="submit" name="button"><span class="send-btn">Отправить</span></button>
+                 </div>
+
+                 <div class="map">
+                   <div class="sky__map"></div>
+                 <!-- </div> -->
+                </div>
+              </form>
+            </div>
+          </section>
+        </main>
+
+        <footer class="footer">
+          <div class="sky__footer">
+            <a class="sky__footer_logo" href="#">
+              <img class="footer__logo-img" src="images/logo-footer.svg" alt="Логотип футера">
+            </a>
+
+            <div class="sky__foot-copyright">
+              <a class="sky__footer-link" href="#">©NASA, all rights reserved</a>
+            </div>
+
+            <div class="sky__foot-date">
+              <a class="footer__sky-link" href="#">Персональные данные </a>
+            </div>
+
+            <div class="sky__foot-cite">
+              <a class="sky__footer-link" href="#">Разработка сайта — </a>
+            </div>
+
+            <div class="sky__foot">
+              <a class="footer__sky-link" href="#">вангер.рф </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+     <script src="js/main.js"></script>
+   </body>
+  </html>
